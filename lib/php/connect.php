@@ -1,4 +1,4 @@
-<?php
+	<?php
 	
 	$ip=explode(".",$_SERVER['SERVER_ADDR']);
 	
