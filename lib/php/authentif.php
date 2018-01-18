@@ -1,5 +1,5 @@
 <?php 
-if(!isset($_GET['login']) && !isset($_GET['motdepasse']))
+if(!isset($_GET['login']) && !isset($_GET['password']))
 {
 	header('Location: index.php');
 	Exit;
