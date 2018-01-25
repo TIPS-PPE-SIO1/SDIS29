@@ -3,7 +3,7 @@
 <head>
 <title>FireRescue</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<link href="01_sp/style_sp.css" rel="stylesheet" type="text/css" />
+<link href="lib/css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div id="container">
