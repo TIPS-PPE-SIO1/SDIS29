@@ -11,9 +11,9 @@
   <div id="banner"><img src="images/main-image.jpg" alt="Main Image" /></div>
   <div id="nav">
     <ul>
-      <li class="nlink"><a href="http://www.free-css.com/">Home</a></li>
-      <li class="nlink"><a href="http://www.free-css.com/">Archives</a></li>
-      <li class="nlink"><a href="http://www.free-css.com/">Apparatus</a></li>
+      <li class="nlink"><a href="http://www.free-css.com/">ACCUEIL</a></li>
+      <li class="nlink"><a href="http://www.free-css.com/">PERSONNEL</a></li>
+      <li class="nlink"><a href="http://www.free-css.com/">FORMATION</a></li>
       <li class="nlink"><a href="http://www.free-css.com/">Members</a></li>
       <li class="nlink"><a href="http://www.free-css.com/">Gallery</a></li>
       <li class="nlink"><a href="http://www.free-css.com/">Traning</a></li>
