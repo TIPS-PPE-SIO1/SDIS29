@@ -8,6 +8,7 @@
 <body>
 <div id="container">
   <div id="logo"><img src="images/logo.jpg" alt="Logo" /></div>
+  <div id="logo_SDIS29"><img src="images/logo_SDIS29.jpg" alt="logo_SDIS29" width = 27 height = 330/></div>
   <div id="banner"><img src="images/main-image.jpg" alt="Main Image" /></div>
   <div id="nav">
     <ul>
@@ -87,9 +88,9 @@
    </div>
     <div style="clear:both"></div>
  </div>
-  <div id="footer"> <a href="http://www.free-css.com/">Home</a> | <a href="http://www.free-css.com/">Archives</a> | <a href="http://www.free-css.com/">Apparatus</a> | <a href="http://www.free-css.com/">Members</a> | <a href="http://www.free-css.com/">Gallery</a> | <a href="http://www.free-css.com/">Training</a> | <a href="http://www.free-css.com/">Store</a> | <a href="http://www.free-css.com/">Links</a><br />
+  <div id="footer"> <a href="http://www.free-css.com/">ACCUEIL</a> | <a href="http://www.free-css.com/">PERSONNEL<br />
     <br />
-    <p>&copy; Fire Rescue Squad 2006. All rights reserved. | designed by <a href="http://www.freewebsitetemplates.com">free website templates</a></p>
+    <p>&copy; Fire Rescue Squad 2006. All rights reserved. | designed by <img src="images/logoTIPS1(Flamme).png" alt="Logo"  width = 27 height = 30/>TIPS29<br/> <a href="http://www.freewebsitetemplates.com">free website templates</a></p>
  </div>
 </div>
 </body>

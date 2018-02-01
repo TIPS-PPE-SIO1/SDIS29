@@ -9,6 +9,14 @@ body {
 	text-align: center;
 }
 
+#logo_SDIS29 {
+	
+	position: absolute;
+    right: 30px;
+    bottom: 30px;
+    z-index: 2;
+}
+
 * html body {
 }
 
