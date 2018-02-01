@@ -14,11 +14,10 @@
       <li class="nlink"><a href="http://www.free-css.com/">ACCUEIL</a></li>
       <li class="nlink"><a href="http://www.free-css.com/">PERSONNEL</a></li>
       <li class="nlink"><a href="http://www.free-css.com/">FORMATION</a></li>
-      <li class="nlink"><a href="http://www.free-css.com/">Members</a></li>
-      <li class="nlink"><a href="http://www.free-css.com/">Gallery</a></li>
-      <li class="nlink"><a href="http://www.free-css.com/">Traning</a></li>
-      <li class="nlink"><a href="http://www.free-css.com/">Store</a></li>
-      <li class="nlinkend"><a href="http://www.free-css.com/">Links</a></li>
+      <li class="nlink"><a href="http://www.free-css.com/">PERSONNEL</a></li>
+      <li class="nlink"><a href="http://www.free-css.com/">PERSONNEL</a></li>
+      <li class="nlink"><a href="http://www.free-css.com/">CATALOGUE</a></li>
+      <li class="nlink"><a href="http://www.free-css.com/">VALIDATION</a></li>
     </ul>
  </div>
   <div id="content">
