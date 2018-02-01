@@ -8,7 +8,7 @@
 <body>
 <div id="container">
   <div id="logo"><img src="images/logo.jpg" alt="Logo" /></div>
-  <div id="logo_SDIS29"><img src="images/logo_SDIS29.jpg" alt="logo_SDIS29" width = 27 height = 330/></div>
+  <div id="logo_SDIS29"><img src="images/logo_SDIS29.png" alt="logo_SDIS29" width = 120 height = 144/></div>
   <div id="banner"><img src="images/main-image.jpg" alt="Main Image" /></div>
   <div id="nav">
     <ul>
