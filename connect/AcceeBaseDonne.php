@@ -11,7 +11,7 @@
  * ajout de la fct comptSQL();
  
  */
-
+$modeacces = "mysqli";
 
 function connexion($host, $port, $dbname, $user, $password) {
 	

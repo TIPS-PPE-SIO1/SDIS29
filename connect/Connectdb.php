@@ -1,15 +1,18 @@
 <?php 
 //Connexion SQL
+include 'AcceeBaseDonne.php';
 $Serveur = 'localhost';
 $User = 'sdis';	
 $MDP = 'Tips29';	
 $Base = 'SDIS_DB_PF';		
 $encryption_key = "sdfjksdfuSDhuifhspFfhp145fs25d";
 
-$db = new mysqli($Serveur, $User,$MDP, $Base);
+$connexion = new mysqli($Serveur, $User,$MDP, $Base);
 
-if ($db->connect_errno) {
-    echo "Echec lors de la connexion à MySQL : (" . $db->connect_errno . ") " . $db->connect_error;
+if ($connexion->connect_errno) {
+    echo "Echec lors de la connexion à MySQL : (" . $connexion->connect_errno . ") " . $connexion->connect_error;
 } 
 
+$sql = "DELETE FROM CASERNE;";
+$result = executeSQL_GE($sql);
 ?>
