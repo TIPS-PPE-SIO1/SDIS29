@@ -1,5 +1,5 @@
 <?php
-	include 'connect.php';
+	include 'Connectdb.php';
 
     //les classes sont dans le fichier classe.txt
 	$nomfichier = 'classe.txt';

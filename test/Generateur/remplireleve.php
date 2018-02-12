@@ -1,5 +1,5 @@
 <?php
-	include 'connect.php';
+	include 'Connectdb.php';
 
     //les noms sont dans le fichier nom.txt
 	$nomfichier = 'nom.txt';
@@ -7,7 +7,7 @@
 	//les prenoms garcon sont dans le fichier garcon.txt
 	$nomfichier = 'garcon.txt';
 	$tabloprenomgarcon = file($nomfichier);
-	//les prenoms garcon sont dans le fichier garcon.txt
+	//les prenoms filles sont dans le fichier fille.txt
 	$nomfichier = 'fille.txt';
 	$tabloprenomfille = file($nomfichier);
 

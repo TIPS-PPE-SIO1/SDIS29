@@ -1,9 +1,9 @@
 <?php 
 //Connexion SQL
-$Serveur = 'localhost';
+$Serveur = '51.15.197.194';
 $User = 'sdis';	
 $MDP = 'Tips29';	
-$Base = 'SDIS29';		
+$Base = 'SDIS_DB_PF';		
 $encryption_key = "sdfjksdfuSDhuifhspFfhp145fs25d";
 
 $db = new mysqli($Serveur, $User,$MDP, $Base);

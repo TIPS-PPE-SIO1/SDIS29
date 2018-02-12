@@ -6,16 +6,11 @@
  *
  * @author Erwan
  * @copyright Estran
- * @version 1.2.2 Mercredi 24 Janvier 2018
+ * @version 1.2.4 Mardi 30 Janvier 2018
  
-  * ajout de la fct erreurSQL()
+ * ajout de la fct comptSQL();
  
  */
-
-
-$modeacces = "mysqli";
-
-
 
 
 function connexion($host, $port, $dbname, $user, $password) {
@@ -100,6 +95,22 @@ function executeSQL($sql) {
 }
 
 
+function executeSQL_GE($sql) {
+	
+	global $modeacces, $connexion;
+	
+	
+	if ($modeacces=="mysql") {
+		$result = mysql_query($sql);
+		
+	}
+	
+	if ($modeacces=="mysqli") {
+		$result = $connexion->query($sql);
+	}
+	
+	return $result;
+}
 
 function erreurSQL() {
 	
@@ -111,10 +122,53 @@ function erreurSQL() {
 	
 	if ($modeacces=="mysqli") {
 		//$mysqli->error_list;
-		return mysqli_error_list($connexion)[0]['error'];     
+		return mysqli_error_list($connexion)[0]['error'];
 	}
 	
 }
 
+
+
+function compteSQL($sql) {
+	
+	global $modeacces, $connexion;
+	
+	$result = executeSQL($sql);
+	
+	if ($modeacces=="mysql") {
+		$num_rows = mysql_num_rows($result);
+	}
+	
+	if ($modeacces=="mysqli") {
+		$num_rows = $connexion->affected_rows;
+	}
+	
+	return $num_rows;
+	
+}
+
+function tableSQL($sql) {
+	
+	global $modeacces, $connexion;
+	
+	$result = executeSQL($sql);
+	$rows = array();
+		
+	if ($modeacces=="mysql") {
+		while ($row = mysql_fetch_array($result, MYSQL_BOTH)) {
+			array_push($rows,$row);
+		}
+	}
+	
+	
+	if ($modeacces=="mysqli") {
+		while ($row = $result->fetch_array(MYSQLI_BOTH)) {
+			array_push($rows,$row);
+		}
+	}
+	
+	return $rows;
+	
+}
 
 ?>
