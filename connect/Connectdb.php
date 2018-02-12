@@ -1,6 +1,6 @@
 <?php 
 //Connexion SQL
-$Serveur = '51.15.197.194';
+$Serveur = 'localhost';
 $User = 'sdis';	
 $MDP = 'Tips29';	
 $Base = 'SDIS_DB_PF';		
